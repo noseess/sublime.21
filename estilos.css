@@ -1,0 +1,53 @@
+body {
+  background-color: #c60000; /* rojo intenso */
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial Black', sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  max-width: 90%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .imagenes {
+    grid-template-columns: 1fr; /* una imagen por fila */
+  }
+}

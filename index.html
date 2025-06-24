@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SUBLIME.21</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Web Responsive</title>
+  <link rel="stylesheet" href="estilos.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Web Responsive</title>
+  <style>
+    .imagenes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+
+      .logo {
+        width: 80%;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .imagenes {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <img src="logo.webp" alt="Logo Sublime21" class="logo">
+    <h1>SUBLIME.21</h1>
+    <p>Pulseras artesanales hechas con dedicación y esfuerzo </p>
+  </div>
+<body>
+  <header>
+    <img src="logo.png" alt="Mi logo" class="logo" />
+  </header>
+
+  <main>
+    <h1>Bienvenido a mi página</h1>
+    <p>Pulseras artesanales hechas con dedicación y esfuerzo.</p>
+
+    <section class="imagenes">
+      <img src="foto1.jpg" alt="Foto 1" />
+      <img src="foto2.jpg" alt="Foto 2" />
+      <img src="foto3.jpg" alt="Foto 3" />
+    </section>
+  </main>
+</body>
+</html>
